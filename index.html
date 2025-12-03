@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Modern - Muh. Muskamal Irba</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <!-- ================= HEADER (Flexbox) ================= -->
+  <header>
+    <h1>Portofolio Saya</h1>
+    <nav>
+      <ul>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#keahlian">Keahlian</a></li>
+        <li><a href="#proyek">Proyek</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="btn-container">
+    <button id="btnTema">Ubah Tema</button>
+    <button id="btnSapa">Sapa Saya</button>
+  </div>
+
+  <p id="greeting"></p>
+
+  <!-- ================= MAIN LAYOUT (Grid) ================= -->
+  <main>
+    <!-- Sidebar Profil -->
+    <aside>
+      <img src="C:\Users\LENOVO\Downloads\muskamal.jpeg" alt="Foto Muh. Muskamal Irba">
+      <h2> Muh. Muskamal Irba</h2>
+      <p>Mahasiswa Universitas Muhammadiyah Bone</p>
+    </aside>
+
+    <!-- Konten Utama -->
+    <section>
+      <article id="tentang">
+        <h2>Tentang Saya</h2>
+        <p>Halo, saya <strong> Muh. Muskamal Irba</strong>, atau biasa dipanggil <em>febe/Rian</em>.
+        Saya mahasiswa di salah satu perguruan tinggi lebih tepatnya di Universitas Muhamadiyah Bone, saya mengambil program studi Teknologi Pendidikan.</p>
+      </article>
+
+      <article id="keahlian">
+        <h2>Keahlian</h2>
+        <div class="grid-keahlian">
+          <div class="item">HTML & CSS</div>
+          <div class="item">Desain Grafis</div>
+          <div class="item">gaming</div>
+          <div class="item">Hiking</div>
+          <div class="item">Bermusik</div>
+          <div class="item">Olahraga</div>
+        </div>
+      </article>
+
+      <article id="proyek">
+        <h2>Proyek</h2>
+        <p>Beberapa karya yang pernah saya buat meliputi desain media pembelajaran</p>
+      </article>
+
+      <article id="kontak">
+        <h2>Media Sosial</h2>
+        <p>Instagram: 
+          <a href="https://www.instagram.com/muskamall_?igsh=dTJhczRkZWVkODhv" target="_blank">
+            @muskamall
+          </a>
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER (Flexbox) ================= -->
+  <footer>
+    <p>&copy; 2025  Muh. Muskamal Irba. Semua hak cipta dilindungi.</p>
+    <div class="footer-links">
+      <a href="#tentang">Tentang</a>
+      <a href="#kontak">Kontak</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
