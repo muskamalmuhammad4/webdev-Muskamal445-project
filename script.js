@@ -19,12 +19,12 @@ const greeting = document.getElementById("greeting");
 btnSapa.addEventListener("click", () => {
     console.log("Tombol Sapa Saya diklik");
 
-    let nama = prompt("FEBRIAN MUHARRAM:");
+    let nama = prompt("Muh. Muskamal Irba:");
 
     if (nama && nama.trim() !== "") {
         greeting.innerText = Halo, {nama} ;
     } else {
-        greeting.innerText = "HALO! NAMA SAYA FEBRIAN MUHARRAM";
+        greeting.innerText = "HALO! NAMA SAYA MUH. MUSKAMAL IRBA";
     }});
 
 /*
